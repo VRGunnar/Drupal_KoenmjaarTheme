@@ -1,0 +1,17 @@
+name: koenmjaar_theme
+type: theme
+base theme: classy
+description: 'A theme made by Gunnar Van Remoortere.'
+core_version_requirement: ^8 || ^9
+
+libraries:
+  - core/normalize
+  - koenmjaar_theme/global
+  - koenmjaar_theme/fonts
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  content: Content
+  footer: Footer
+  disabled: Disabled
